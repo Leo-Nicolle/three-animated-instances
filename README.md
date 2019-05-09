@@ -2,6 +2,8 @@
 
 This project just shows how to create isntances of THREE SkinnedMesh and animate them.
 
+[Check it out in action](https://leo-nicolle.github.io/three-animated-instances/)
+
 ## Project setup
 
 ```
