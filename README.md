@@ -1,29 +1,19 @@
 # three-animated-instances
 
+This project just shows how to create isntances of THREE SkinnedMesh and animate them.
+
 ## Project setup
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Contributing
 
-### Run your tests
-```
-npm run test
-```
+This is a nice start but something CRUCIAL is missing: beeing able to animate each instance separatly.
+Any idea on which should be the best approach?
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Credits
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The model used is [CesiumMan](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/CesiumMan) from GTL samples files.
