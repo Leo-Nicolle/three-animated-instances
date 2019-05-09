@@ -1,6 +1,5 @@
 <template>
   <div>
-    Salut
     <canvas ref="canvas"></canvas>
   </div>
 </template>

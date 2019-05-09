@@ -15,10 +15,10 @@ class Instance {
     loader.load(url, gltf => {
       const mesh = gltf.scene;
       this.tracks = gltf.animations[0].tracks;
-      // mesh.traverse(o => {
-      //   if (!(o instanceof THREE.SkinnedMesh)) return;
-      //   this.instanciate(o);
-      // });
+      mesh.traverse(o => {
+        if (!(o instanceof THREE.SkinnedMesh)) return;
+        this.instanciate(o);
+      });
       scene.add(mesh);
       scene.position.set(4 * Math.random(), 0, 4 * Math.random());
       this.mixer = new THREE.AnimationMixer(mesh);
