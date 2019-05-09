@@ -4,9 +4,7 @@ import GLTFLoader from "three-gltf-loader";
 class Instance {
   constructor(url, numInstances = 100) {
     this.numInstances = numInstances;
-    for (let i = 0; i < numInstances; i++) {
-      this.loadMesh(url);
-    }
+    this.loadMesh(url);
     engine3d.on("update", () => this.onUpdate());
   }
 

@@ -17,7 +17,7 @@ class Engine3d extends EventEmitter {
       1,
       10000
     );
-    this.camera.position.z = 10;
+    this.camera.position.set(14, 14, 14);
     this.scene = new THREE.Scene();
 
     var light = new THREE.PointLight(0xffffff, 1, 100);
